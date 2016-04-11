@@ -6,7 +6,7 @@ String name
 
 String email
 
-String studentid
+String studentId
 
 String course
 
