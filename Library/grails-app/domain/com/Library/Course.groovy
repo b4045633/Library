@@ -15,5 +15,16 @@ String description
 String toString(){"$title,$department"}
 
     static constraints = {
+
+		title()
+
+		code()
+
+		tutor()
+
+		department()
+
+		description()
+
     }
 }

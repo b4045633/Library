@@ -1,4 +1,4 @@
-package com.library
+package com.Library
 
 import grails.test.mixin.TestFor
 import spock.lang.Specification
@@ -6,8 +6,8 @@ import spock.lang.Specification
 /**
  * See the API for {@link grails.test.mixin.web.ControllerUnitTestMixin} for usage instructions
  */
-@TestFor(StudentController)
-class StudentControllerSpec extends Specification {
+@TestFor(BookController)
+class BookControllerSpec extends Specification {
 
     def setup() {
     }
@@ -15,8 +15,6 @@ class StudentControllerSpec extends Specification {
     def cleanup() {
     }
 
-    void "test something"() {
-        expect:"fix me"
-            true == false
-    }
+ 
+    
 }

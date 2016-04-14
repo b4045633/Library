@@ -1,4 +1,4 @@
-package com.library
+package com.Library
 
 import grails.test.mixin.TestFor
 import spock.lang.Specification
@@ -14,9 +14,5 @@ class LibraryControllerSpec extends Specification {
 
     def cleanup() {
     }
-
-    void "test something"() {
-        expect:"fix me"
-            true == false
-    }
 }
+

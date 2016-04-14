@@ -10,12 +10,25 @@ String isbn
 
 Date dateBorrowed
 
-Date returnDate
+Date returnedDate
 
 String student
 
 String toString(){"$title,$author"}
 
     static constraints = {
+
+		title()
+
+		author()
+
+		isbn()
+
+		dateBorrowed()
+
+		returnedDate()
+
+		student()
+
     }
 }

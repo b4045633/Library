@@ -13,5 +13,14 @@ String course
 String toString(){"$name,$email"}
 
     static constraints = {
+
+		name()
+
+		email()
+
+		studentId()
+
+		course()
+
     }
 }
