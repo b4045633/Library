@@ -1,0 +1,159 @@
+def course1= new Course(title:'Civil Engineering',
+
+		code:'E101',
+
+		tutor:'Ishmael Smart',
+
+		department:'Engineering',
+
+		description:'"4 year Engineering course"').save()
+
+def course2= new Course(title:'Networking',
+
+		code:'E109',
+
+		tutor:'Salomey Addae',
+
+		department:'System Networks',
+
+		description:'"3 year networking course"').save()
+
+def course3= new Course(title:'Advanced Programming',
+
+		code:'E203',
+
+		tutor:'John Hammond',
+
+		department:'Advanced Computing',
+
+		description:'"4 year programming course"').save()
+
+
+
+def student1= new Student(name:'Shola Banjo',
+
+		email:'Sbanjo@hotmail.com',
+
+		studentId:'B4045783',
+
+		course:course1).save()
+
+def student2= new Student(name:'Ashely Brown',
+
+		email:'AshB@hotmail.com',
+
+		studentId:'B4045643',
+
+		course:course2).save()
+
+def student3= new Student(name:'Jahmal Plug',
+
+		email:'JPlug@hotmail.com',
+
+		studentId:'B4045222',
+
+		course:course3).save()
+
+
+
+def librarian1= new Librarian(name:'Anthony ige',
+
+		email:'A.ige@hotmail.co.uk',
+
+		userName:'Aige94',
+
+		password:'Aigepassword',
+
+		telephone:'07984635276').save()
+
+def librarian2= new Librarian(name:'Jack Carter',
+
+		email:'jcart@hotmail.co.uk',
+
+		userName:'Jcarter21',
+
+		password:'Jcarterpassword',
+
+		telephone:'07984635267').save()
+
+def librarian3= new Librarian(name:'Holly Simpson',
+
+		email:'Hsimpson@hotmail.co.uk',
+
+		userName:'HollyS20',
+
+		password:'Hsimpspassword',
+
+		telephone:'07984642266').save()
+
+
+
+def library1= new Library(location:'Sheffield',
+
+		openingHours: '9.00 am - 6pm',
+
+		book:'Programming',
+
+		student:'Shola Banjo',
+
+		librarian:'Anthony ige').save()
+
+def library2= new Library(location:'Leeds',
+
+		openingHours: '9.00 am - 7pm',
+
+		book:'Networking 2.0',
+
+		student:'Ashley brown',
+
+		librarian:'Jack Carter').save()
+
+def library3= new Library(location:'Birmingham',
+
+		openingHours: '9.00 am - 5pm',
+
+		book:'Coding for Beginners',
+
+		student:'Jahmal plug',
+
+		librarian:'Holly Simpson').save()
+
+
+
+def book1= new Book(title:'Programming',
+
+		author:'John Doe',
+		
+		isbn:'9834',
+
+		dateBorrowed:new Date('21/05/2015'),
+
+		returnedDate:new Date('30/05/2015'),
+
+		student:'Shola Banjo').save()
+
+def book2= new Book(title:'Networking 2.0',
+
+		author:'Dave Jones',
+		
+		isbn:'9858',
+
+		dateBorrowed:new Date('10/05/2015'),
+
+		returnedDate:new Date('20/05/2015'),
+
+		student:'Ashley Brown').save()
+
+def book3= new Book(title:'Coding for Beginners',
+
+		author:'Pete Smith',
+		
+		isbn:'9822',
+
+		dateBorrowed:new Date('30/05/2015'),
+
+		returnedDate:new Date('05/06/2015'),
+
+		student:'Jahmal Plug').save()
+
+

@@ -12,7 +12,7 @@ Date dateBorrowed
 
 Date returnedDate
 
-String student
+Student student
 
 String toString(){"$title,$author"}
 
